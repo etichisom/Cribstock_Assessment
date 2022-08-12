@@ -19,13 +19,13 @@ class AppBackground extends StatelessWidget {
             width: size.width,
           ),
           Container(
-            height: size.height*0.25,
+            height: size.height*0.27,
             width: size.width,
             decoration:const BoxDecoration(
               color: AppColor.primaryColor,
               borderRadius: BorderRadius.only(
-                bottomRight: Radius.circular(10),
-                bottomLeft: Radius.circular(10)
+                bottomRight: Radius.circular(13),
+                bottomLeft: Radius.circular(13)
               )
             ),
           ),
